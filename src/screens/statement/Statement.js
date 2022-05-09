@@ -26,6 +26,8 @@ import TableHead from "@mui/material/TableHead";
 import TableRow from "@mui/material/TableRow";
 import Paper from "@mui/material/Paper";
 import countryData from "./CountryData";
+// import WorkIcon from "@mui/icons-material/Work";
+
 import icons from "./Icons";
 import AssignmentIndIcon from "@mui/icons-material/AssignmentInd";
 import LinearProgress, {
@@ -317,6 +319,7 @@ function Statement() {
                 </List>
               </Collapse>
             </List>
+            {/* --------------------- */}
           </div>
           <div className="col-10 _createcol2 ">
             <nav className="navbar navbar-expand-lg navbar-light bg-light _createsection">
@@ -351,7 +354,7 @@ function Statement() {
                     <input
                       className="form-control me-2"
                       type="search"
-                      placeholder="Search"
+                      placeholder="Type Here....."
                       aria-label="Search"
                     />
                   </form>
@@ -498,7 +501,7 @@ function Statement() {
             </div>
             {/* ------------------------------------ */}
             <div className="container-fluid">
-              <div className="row">
+              <div className="row _createrow">
                 <div className="col-4 _createchart">
                   <div className="_createbar"></div>
                   <p>
@@ -529,11 +532,29 @@ function Statement() {
                     })}
                   </div>
                 </div>
-                <div className="col-8 _creategraph">
-                  <p>Sales Overview</p>
-                  <h4>
-                    <i class="fad fa-arrow-alt-from-bottom"></i>4% more in 2021
-                  </h4>
+
+                <div className="col-7 _creategraph1">
+                  <div className="_creategraph">
+                    <h3>Sales Overview</h3>
+                    <p>
+                      <i class="fas fa-arrow-alt-circle-up"></i> 4% more in 2021
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="container-fluid">
+              <div className="row _createfooter">
+                <div className="col-6 _sectionfooter1">
+                  © 2022, made with<i class="fas fa-heart"></i> by
+                  <span>Creative Tim</span>
+                  for a better web.
+                </div>
+                <div className="col-6 _sectionfooter2">
+                  <span>Creative Tim</span>
+                  <span>About Us</span>
+                  <span>Blog </span>
+                  <span>License</span>
                 </div>
               </div>
             </div>

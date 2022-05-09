@@ -1,5 +1,4 @@
 ._createcontainer {
-  border: 1px solid #000;
   background-color: rgb(248, 249, 250);
   height: 100%;
 }
@@ -81,6 +80,10 @@ ul._createlist .MuiListItemButton-root {
   padding: 0;
   margin-top: 0.8rem;
   font-size: 0.9rem;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1;
 }
 ._createsection ol {
   margin: 0;
@@ -139,7 +142,7 @@ ul._createlist .MuiListItemButton-root {
   font-weight: 700;
 }
 ._createtag {
-  margin-bottom: 2rem;
+  margin: 2rem 0rem;
 }
 
 ._createcountry {
@@ -155,12 +158,13 @@ ul._createlist .MuiListItemButton-root {
   width: 25%;
   padding: 0 0.5rem;
 }
+
 ._createchart {
   background-color: #fff;
   padding: 1rem;
-  margin: 1rem;
+  width: 41%;
+
   border-radius: 1.5rem;
-  width: 25rem;
 }
 ._createchart p {
   font-size: larger;
@@ -200,4 +204,31 @@ ul._createlist .MuiListItemButton-root {
 ._createassign > div:first-of-type svg {
   color: #fff;
   font-size: 1rem;
+}
+._creategraph {
+  background-color: #fff;
+  border-radius: 17px;
+  height: 100%;
+  padding: 1rem;
+}
+/* ._creategraph h3 {
+  padding: 1rem;
+} */
+._creategraph i {
+  color: greenyellow;
+}
+._sectionfooter1 {
+  font-size: small;
+}
+._sectionfooter1 span {
+  font-weight: 700;
+}
+._sectionfooter2 {
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 6rem;
+  font-size: small;
+}
+._createfooter {
+  margin: 2rem;
 }
