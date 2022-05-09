@@ -1,0 +1,203 @@
+._createcontainer {
+  border: 1px solid #000;
+  background-color: rgb(248, 249, 250);
+  height: 100%;
+}
+
+._mainBody {
+  height: 100%;
+}
+._createrow {
+  padding: 0.5rem;
+  height: 100%;
+}
+._createcolumn {
+  border: 1px solid #f2f2f2;
+  padding: 0.2rem;
+  background-color: #fff;
+  border-radius: 18px 0px 0px 18px;
+  width: 15rem;
+  height: 100%;
+  overflow-y: auto;
+}
+._createimage {
+  width: 2rem;
+}
+._createbody {
+  padding: 0.5rem 0;
+  margin: 0.7rem;
+}
+._createbody span {
+  padding: 0.2rem;
+  font-weight: 500;
+}
+._maintitle {
+  font-weight: 600;
+}
+._mainicon {
+  padding-right: 0.5rem;
+}
+hr {
+  width: 100%;
+  height: 1px;
+}
+._createdashboard .MuiAccordion-root {
+  box-shadow: none;
+}
+/* ._createdashboard span {
+  padding: 1rem;
+} */
+
+._createdashboard {
+  padding: 0.5rem 0;
+}
+.accordion_sum {
+  min-height: auto;
+  padding: 0.5rem;
+}
+.accordion_detail {
+  padding: 0px 35px 0px !important;
+}
+ul._createlist .MuiListItemButton-root {
+  margin: 0px;
+  padding: 0px;
+}
+._creatediv {
+  display: flex;
+}
+._createlist {
+  display: list-item;
+  list-style-type: disc;
+}
+._createcol2 {
+  width: calc(100% - 15rem);
+  height: 100%;
+  overflow-y: auto;
+}
+._createsection {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  margin-top: 0.8rem;
+  font-size: 0.9rem;
+}
+._createsection ol {
+  margin: 0;
+}
+._header1 a {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+._header2 {
+  display: flex;
+
+  justify-content: flex-end;
+}
+
+._createdollar {
+  background: linear-gradient(318deg, rgb(33, 82, 255), rgb(33, 212, 253));
+
+  background-image: linear-gradient(
+    318deg,
+    rgb(33, 82, 255),
+    rgb(33, 212, 253)
+  );
+  border-radius: 10px;
+}
+._createdollar i {
+  color: rgb(33, 82, 255);
+}
+._createicon {
+  border: 1px solid #fff;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+._cardwrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+._createcard {
+  width: 48%;
+  padding: 0.5rem;
+  border-radius: 15px;
+  border: none;
+}
+._createtitle {
+  font-size: 1rem;
+}
+._createtext {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+._createtag {
+  margin-bottom: 2rem;
+}
+
+._createcountry {
+  margin: 0;
+}
+._createheading {
+  padding: 0.8rem;
+}
+._createtable {
+  border-radius: 1.5rem;
+}
+._createuser > div {
+  width: 25%;
+  padding: 0 0.5rem;
+}
+._createchart {
+  background-color: #fff;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 1.5rem;
+  width: 25rem;
+}
+._createchart p {
+  font-size: larger;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+._createchart h4 {
+  margin-bottom: 0;
+}
+
+._createchart h6 {
+  font-size: 0.9rem;
+  margin-bottom: 0;
+}
+._createassign {
+  display: flex;
+  align-items: center;
+}
+._createbar {
+  background-color: #000;
+  height: 15rem;
+  border-radius: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+._createuser {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2.5rem;
+}
+._createassign > div:first-of-type {
+  border-radius: 0.25rem;
+  box-shadow: rgb(20 20 20 / 12%) 0rem 0.25rem 0.375rem -0.0625rem,
+    rgb(20 20 20 / 7%) 0rem 0.125rem 0.25rem -0.0625rem;
+  padding: 0 0.3rem 0.2rem;
+  margin-right: 0.5rem;
+}
+._createassign > div:first-of-type svg {
+  color: #fff;
+  font-size: 1rem;
+}
